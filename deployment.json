@@ -1,0 +1,24 @@
+{
+  "contract": {
+    "address": "0xcae4911fe80cD787bcDc08e29b0B1bED69B27099",
+    "signerAddress": "0x9166202FD48BAD039B2914B52D443E74Cc38Fa24",
+    "abi": [
+      "constructor(uint256 _biddingTime, address _owner, string _brand, string _Rnumber)",
+      "event BidEvent(address indexed highestBidder, uint256 highestBid)",
+      "event CanceledEvent(string message, uint256 time)",
+      "event WithdrawalEvent(address withdrawer, uint256 amount)",
+      "function Mycar() view returns (string Brand, string Rnumber)",
+      "function STATE() view returns (uint8)",
+      "function auction_end() view returns (uint256)",
+      "function auction_start() view returns (uint256)",
+      "function bid(uint256 _bid) payable returns (bool)",
+      "function bids(address) view returns (uint256)",
+      "function cancel_auction() returns (bool)",
+      "function destruct_auction() returns (bool)",
+      "function get_owner() view returns (address)",
+      "function highestBid() view returns (uint256)",
+      "function highestBidder() view returns (address)",
+      "function withdraw() returns (bool)"
+    ]
+  }
+}
